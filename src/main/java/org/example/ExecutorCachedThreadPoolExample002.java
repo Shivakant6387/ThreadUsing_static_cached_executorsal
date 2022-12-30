@@ -4,7 +4,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-public class ExecutorprivilegedThreadFactoryExample002 {
+public class ExecutorCachedThreadPoolExample002 {
     public static void main(final String[] arguments) throws InterruptedException {
         ExecutorService excr = Executors.newCachedThreadPool();
         ThreadPoolExecutor mypool = (ThreadPoolExecutor) excr;
